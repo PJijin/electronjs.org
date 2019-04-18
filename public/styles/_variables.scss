@@ -32,14 +32,14 @@ $accent-color: hsl(335, 87%, 47%) !default;
 
 // Basecoat overrides
 
-$theme-color: $main-color-strong;
+$theme-color: $main-color-strong !default;
 
-$body-color:    $main-color !important;
-$heading-color: $main-color-strong !important;
+$body-color:    $main-color !default;
+$heading-color: $main-color-strong !default;
 
-$border-color: $main-border-color !important;
+$border-color: $main-border-color !default;
 
-$code-font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+$code-font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
 
 $nodejs-color: #65AA4C;
 $chromium-color: #5586EB
